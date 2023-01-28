@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f49f9a6c-16cb-4589-b628-0427bd394613" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HTTP_Methods.java" afterDir="false" />
+    <list default="true" id="f49f9a6c-16cb-4589-b628-0427bd394613" name="Changes" comment="&quot;this is my first commit&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/body.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day2/DiffWaystoCreatePostReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day2/Pojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ParsingXMLResponseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HTTP_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day1/HTTP_Methods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +25,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2JpCEu4zncgMaZ9MBIk5cEIVXKU" />
@@ -43,10 +46,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/dell/AquaProjects/RestAssuredTraining",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,11 +60,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.HTTP_Methods">
-    <configuration name="HTTP_Methods" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ParsingXMLResponseData.testXMLResponseBody">
+    <configuration name="LoggingDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredTraining" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HTTP_Methods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day3" />
+      <option name="MAIN_CLASS_NAME" value="Day3.LoggingDemo" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -67,11 +78,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HTTP_Methods.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParsingJSONResponseData.testJSONResponse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.ParsingJSONResponseData" />
+      <option name="METHOD_NAME" value="testJSONResponse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParsingJSONResponseData.testResponseBodyData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day4" />
+      <option name="MAIN_CLASS_NAME" value="Day4.ParsingJSONResponseData" />
+      <option name="METHOD_NAME" value="testResponseBodyData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParsingXMLResponseData.testXMLResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredTraining" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HTTP_Methods" />
-      <option name="METHOD_NAME" value="createUser" />
+      <option name="MAIN_CLASS_NAME" value="ParsingXMLResponseData" />
+      <option name="METHOD_NAME" value="testXMLResponse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParsingXMLResponseData.testXMLResponseBody" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredTraining" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ParsingXMLResponseData" />
+      <option name="METHOD_NAME" value="testXMLResponseBody" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,8 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HTTP_Methods" />
-        <item itemvalue="TestNG.HTTP_Methods.createUser" />
+        <item itemvalue="TestNG.ParsingXMLResponseData.testXMLResponseBody" />
+        <item itemvalue="TestNG.ParsingXMLResponseData.testXMLResponse" />
+        <item itemvalue="TestNG.ParsingJSONResponseData.testResponseBodyData" />
+        <item itemvalue="TestNG.ParsingJSONResponseData.testJSONResponse" />
+        <item itemvalue="TestNG.LoggingDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -94,11 +156,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672765531826</updated>
-      <workItem from="1672765532981" duration="3376000" />
+      <workItem from="1672765532981" duration="3668000" />
+      <workItem from="1673101529892" duration="437000" />
+      <workItem from="1673168162060" duration="3890000" />
+      <workItem from="1673173808623" duration="214000" />
+      <workItem from="1673196139538" duration="46000" />
+      <workItem from="1674140467774" duration="3487000" />
+      <workItem from="1674897147247" duration="7025000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;this is my first commit&quot;">
+      <created>1672769033007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672769033007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;this is my first commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;this is my first commit&quot;" />
   </component>
 </project>

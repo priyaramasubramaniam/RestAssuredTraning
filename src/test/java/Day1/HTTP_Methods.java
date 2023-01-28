@@ -1,3 +1,5 @@
+package Day1;
+
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
