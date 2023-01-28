@@ -1,3 +1,5 @@
+package Day5;
+
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
@@ -60,6 +62,8 @@ public class ParsingXMLResponseData {
             }
         }
         Assert.assertEquals(status, true);
+        Assert.assertEquals(status, true);
+
     }
 
 }
